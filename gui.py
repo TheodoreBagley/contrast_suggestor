@@ -13,3 +13,4 @@ class App(tk.Tk):
         self.display1 = tk.Frame(self, bg = "white", width=self.length - 10, height=(self.height/10)*4)
         self.display1.grid(row=0, column=0, pady = 5)
         self.entry_frame.grid(row = 3, column = 0, sticky = tk.S)
+        check = 'yee'
